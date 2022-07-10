@@ -1,0 +1,6 @@
+per_cent = {'TKB': 5.6, 'SKB': 5.9, 'VTB': 4.28, 'SBER': 4.0}
+b = float(input('money='))
+a = [per_cent['TKB']*b/100, per_cent['SKB']*b/100, per_cent['VTB']*b/100, per_cent['SBER']*b/100]
+
+print('Deposit=', a)
+print('You can get', max(a))
